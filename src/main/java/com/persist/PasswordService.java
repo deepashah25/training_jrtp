@@ -11,6 +11,8 @@ public class PasswordService
 		Encoder encoder=Base64.getEncoder();
 		String encpass=encoder.encodeToString(str.getBytes());
 		
+		
+		
 		return encpass;
 	}
 }
